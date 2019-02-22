@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "modules": false,
+      "useBuiltIns": "usage",
+      "targets": {
+        "browsers": ["> 0.1%", "ios >= 8", "android >= 4"]
+      }
+    }]
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-do-expressions"
+  ]
+}
